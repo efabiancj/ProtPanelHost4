@@ -24,6 +24,13 @@
     </repositories>
        
     <dependencies>
+        
+        <dependency>
+             <groupId>com.kapyasoft.pro_panel_host4</groupId>
+             <artifactId>Prot_panel_host4</artifactId>
+             <version>1.0</version>
+        </dependency>
+        
         <dependency>
             <groupId>org.primefaces</groupId>
             <artifactId>primefaces</artifactId>
