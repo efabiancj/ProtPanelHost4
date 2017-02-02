@@ -82,9 +82,9 @@
            verbose="false" 
            fork="false" 
            source="1.7">
-      <!--src>
+      <src>
         <pathelement location="${maven.build.srcDir.0}"/>
-      </src-->
+      </src>
       <classpath refid="build.classpath"/>
     </javac>
   </target>
