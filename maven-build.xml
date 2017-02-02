@@ -71,7 +71,7 @@
   
   
   
-  <target name="compile" depends="get-deps" description="Compile the code">
+  <!--target name="compile" depends="get-deps" description="Compile the code">
     <mkdir dir="${maven.build.outputDir}"/>
     <javac destdir="${maven.build.outputDir}" 
            nowarn="false" 
@@ -87,7 +87,7 @@
       </src>
       <classpath refid="build.classpath"/>
     </javac>
-  </target>
+  </target-->
 
   <!-- ====================================================================== -->
   <!-- Test-compilation target                                                -->
